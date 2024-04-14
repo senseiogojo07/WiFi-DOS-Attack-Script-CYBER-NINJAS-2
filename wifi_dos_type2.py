@@ -41,7 +41,7 @@ print("\n****************************************************************")
 
 # If the user doesn't run the program with super user privilages, don't allow them to continue.
 if not 'SUDO_UID' in os.environ.keys():
-    print("Try running this program")
+    print("Try running this program with Super Permsissions")
     exit()
 
 # Move all .csv files in the directory to a backup folder
