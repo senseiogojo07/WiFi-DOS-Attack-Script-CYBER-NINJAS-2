@@ -36,8 +36,16 @@ def check_for_essid(essid, lst):
 
 # Basic user interface header
 print("\n****************************************************************")
-print("\n* Copyright of CYEBR NINJAS, 2024                              *")
+print("\n* Copyright of CYBER NINJAS, 2024                              *")
+print(r"""
+   ______   ______  _____ ____    _   _ ___ _   _     _   _    ____  
+  / ___\ \ / / __ )| ____|  _ \  | \ | |_ _| \ | |   | | / \  / ___| 
+ | |    \ V /|  _ \|  _| | |_) | |  \| || ||  \| |_  | |/ _ \ \___ \ 
+ | |___  | | | |_) | |___|  _ <  | |\  || || |\  | |_| / ___ \ ___) |
+  \____| |_| |____/|_____|_| \_\ |_| \_|___|_| \_|\___/_/   \_\____/ 
+""")
 print("\n****************************************************************")
+
 
 # If the user doesn't run the program with super user privilages, don't allow them to continue.
 if not 'SUDO_UID' in os.environ.keys():
